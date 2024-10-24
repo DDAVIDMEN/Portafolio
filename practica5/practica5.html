@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../proyectoMT.css">
+    <link rel="stylesheet" href="../tablasMT.css">
+    <script type="text/javascript" src="practica5.js"></script>
+    <title>Tabla Dinámica</title>
+</head>
+<body>
+    <header>
+    <h1>Práctica 5 - David David <br>Candidatos</h1>
+</header>
+<br>
+<main class = "container">
+    <section>
+    <form action="">
+        Nombre: <input type = "text" id="nombre" required><br>
+        Correo: <input type = "email" id="correo" required><br>
+        <h2>Áreas de intéres: </h2>
+        <input type="checkbox" id="soft" name="area" value="Desarrollo de Software"> Desarrollo de Software <br>
+        <input type="checkbox" id="ciber" name="area" value="Ciberseguridad"> Ciberseguridad <br>
+        <input type="checkbox" id="inte" name="area" value="Inteligencia Artificial"> Inteligencia Artificial <br>
+        <h2>Género</h2>
+        <input type="radio" name="genero" id="masculino" value="Masculino"> Másculino <br>
+        <input type="radio" name="genero" id="femenino" value="Femenino"> Femenino <br>
+        <input type="radio" name="genero" id="otro" value="Otro"> Otro <br>
+        <h2>Fecha y hora: </h2>
+        <input type="datetime-local" name="tiempo" id="tiempo"> <br>
+        <h2>Color favorito:</h2>
+        <input type="color" name="color" id="color"> <br>
+        <h2>Disponibilidad:</h2>
+        <input type="range" min = "0" max="100" step="10" name="rango"  id="rango" value="0"><br>
+    </form>
+
+    <button type="button" onclick="Registro()">Registrar</button>
+    </section>
+    <section>
+    <table id="candidatos"></table> 
+</section>
+</main>
+<a href="../practica4/practica4.html">Práctica 4</a><br>
+<a href="../proyectoMT.html">Inicio</a>
+    <footer>
+        <p>&copy; 2024 Portafolio de David. Todos los derechos reservados.</p>
+      </footer>
+</body>
+</html>

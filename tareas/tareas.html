@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../proyectoMT.css">
+    <link rel="stylesheet" href="../tablasMT.css">
+    <script type="text/javascript" src="tareas.js"></script>
+    <title>Tabla Dinámica</title>
+</head>
+
+<body>
+    <header>
+        <h1>Lista de Tareas</h1>
+    </header>
+    <br>
+    <main class="container">
+        <section>
+            <form action="">
+                Tarea: <input type="text" id="tarea" required placeholder="Escribe una tarea..."><br>
+            </form>
+
+            <button type="button" onclick="Añadir()">Añadir</button><br>
+            <button type="button" onclick="Borrar()">Borrar Lista</button>
+        </section>
+        <section>
+            <table id="tareas">
+                <thead>
+                    <tr>
+                        <th>Estado</th>
+                        <th>Tarea</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <a href="../proyectoMT.html">Inicio</a>
+    <footer>
+        <p>&copy; 2024 Portafolio de David. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

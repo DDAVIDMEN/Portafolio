@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 4</title>
+    <script type="text/javascript" src="practica4.js"></script>
+    <link rel="stylesheet" href="../proyectoMT.css">
+    <link rel="stylesheet" href="../tablasMT.css">
+</head>
+<body>
+  <header>
+    <h1>Práctica 4 - David David</h1>
+    <h2>Manejo de elementos HTML con JavaScript</h2>
+  </header>
+  <main class="container">
+    <section>
+    <h3>Ejercicio 1</h3>
+    <h3>Calificaciones</h3>
+    <table>
+        <tr>
+          <th>Rango de Calificaciones</th>
+          <th>Equivalencia</th>
+        </tr>
+        <tr>
+          <td>[0, 6)</td>
+          <td>NA</td>
+        </tr>
+        <tr  id="renglon2">
+          <td>[6, 7.5)</td>
+          <td>S</td>
+        </tr>
+        <tr>
+          <td>[7.5, 9)</td>
+          <td>B</td>
+        </tr>
+        <tr id="renglon2">
+          <td>[9, 10)</td>
+          <td>MB</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>LAP</td>
+        </tr>
+      </table>
+    <p>Ingrese su calificación:</p>
+    <form action="">
+        <input type="number" min="0" id="numero">
+    </form>
+    <button onclick="Calcular()">Calificación</button>
+    <button onclick="borrar1()">Borrar</button>
+    <p id="resultado1"></p>
+  </section>
+  <section>
+    <h3>Ejercicio 2</h3>
+    <h3>Factorial</h3>
+    <p>Ingrese un número entero positivo.</p>
+    <form action="">
+        <input type="number" id="numero2">
+    </form>
+    <button onclick="Leer()">Calcular</button>
+    <button onclick="borrar2()">Borrar</button>
+
+    <p id="resultado2"></p>
+  </section>
+  <section>
+    <h3>Ejercicio 3</h3>
+    <h3>Registro</h3>
+    <p>Ingrese sus datos:</p>
+    <form>
+        Nombre: <input type="text" name="name" id="nombre"><br>
+        Correo: <input type="email" name="correo" id="correo"> <br>
+        Edad: <input type="number" name="ëdad" id="edad"> <br>
+        <p>Género: </p>
+        <input type="radio" name="gender" id="hombre">Hombre <br> 
+        <input type="radio" name="gender" id="mujer">Mujer <br>
+        <input type="radio" name="gender" id="otro">No binario <br>
+        <br>
+        Fecha de Nacimiento: <input type="date" name="fecha" id="fecha"><br>
+        Color favorito: <input type="color" name="color" id="color"> <br>
+    </form>
+    <button type="button" onclick="registro()">Registrar</button>
+    <button onclick="borrar3()">Borrar</button>
+    <p id="resultado3"></p>
+  </section>
+  </main>
+  <a href="../practica3/index.html">Práctica 3</a><br>
+  <a href="../proyectoMT.html">Inicio</a>
+  <a id="despues" href="../practica5/practica5.html">Práctica 5</a>
+    <footer>
+      <p>&copy; 2024 Portafolio de David. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

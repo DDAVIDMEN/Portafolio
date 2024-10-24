@@ -1,0 +1,113 @@
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #CAF0F8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Estilo general para el contenedor principal */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Cabecera */
+  header {
+    background-color: #0077B6;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+  }
+  
+  
+  /* Sección principal */
+  main {
+    margin-top: 20px;
+  }
+
+  main h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+  }
+  
+  main h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  section h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    margin-bottom: 10px;
+  }
+  h3#index{
+    font-size: 1.8em;
+    text-align: center;
+  }
+  
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  a#despues{
+    float: right;
+  }
+
+  div {
+    text-align: center;
+  }
+  a {
+    display: inline-block;
+    padding: 2px;
+  }
+  a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(89, 36, 224);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: rgb(22, 221, 25);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  
